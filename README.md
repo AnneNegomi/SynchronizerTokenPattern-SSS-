@@ -6,14 +6,6 @@ The application consists of a simple login page with hard-coded credentials. Upo
 The Website has an endpoint which accepts HTTPS post requests. The endpoint receives the session cookie and based on the session identifier, return the CSRF token value. The HTML is submitted to the action, on the server side, extract the received CSRF token value and check if it is the correct token issued for the particular session. If the received CSRF token is valid, show a success message. 
 If not show an error message.
 
-## Download and Installation
-
-###### Clone the project to the local Machine
-
-```
-git clone https://github.com/AnuradhaSD/CSRF_SynchronizerTokenPattern.git
-
-```
 ### Run application
 
 - Application Implemented Using Eclipse IDE
